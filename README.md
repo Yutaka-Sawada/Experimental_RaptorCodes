@@ -1,10 +1,10 @@
 ﻿# Experimental_RaptorCodes
 
-This is an experimental implementation of Raptor Codes. 
+This is an experimental implementation of Raptor Codes.  
 It only supports core feature (encoder and decoder) of RFC 5053.
 
-The implementation consists of files in `raptor` directory. 
-It's possible to setup encoder/decoder, some symbols, and test recovery. 
+The implementation consists of files in `raptor` directory.  
+It's possible to setup encoder/decoder, some symbols, and test recovery.  
 For the usage, refer `raptor.h`. 
 I put a sample `main.c` to use the Recovery Codes.
 
