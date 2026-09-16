@@ -10,10 +10,10 @@ I put a sample `main.c` to use the Recovery Codes.
 
 ## Multiple decoding methods
 
-For recovery, I implemented Peeling Algorithm, Gaussian Elimination, and Inactivation Decoding. 
-Peeling Algorithm (called as Peeling Decoder or Iterative Decoding) is the fastest, but requires many overheads. 
-Gaussian Elimination is slow, but requires less overheads. 
-Inactivation Decoding is faster than Gaussian Elimination. 
+For recovery, I implemented Peeling Algorithm, Gaussian Elimination, and Inactivation Decoding.
+- Peeling Algorithm (called as Peeling Decoder or Iterative Decoding) is the fastest, but requires many overheads.
+- Gaussian Elimination is slow, but requires less overheads.
+- Inactivation Decoding is faster than Gaussian Elimination. 
 Because Inactivation Decoding has patent issue, it's disabled by default. 
 If you want to test their speed, you need to edit source code.
 
